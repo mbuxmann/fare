@@ -4,10 +4,42 @@
       "id": 1,
       "title": "Grocery List",
       "description": "Stuff to buy at the mall",
-      "subtasks": []
+      "completed": false,
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Lettuce",
+          "completed": false
+        },
+        {
+          "id": 2,
+          "title": "Meat",
+          "completed": false
+        },
+        {
+          "id": 3,
+          "title": "Bread",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Study",
+      "description": "subjects to study today",
+      "completed": false,
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Calculus A",
+          "completed": false
+        },
+        {
+          "id": 2,
+          "title": "Computer Science",
+          "completed": false
+        }
+      ]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
