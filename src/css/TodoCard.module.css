@@ -1,0 +1,17 @@
+.done {
+  background-color: black;
+}
+
+.card {
+  width: 400px;
+  margin-left: 20px !important;
+  margin-top: 20px !important;
+}
+
+.cardTitle {
+  color: blue !important;
+}
+
+.description {
+  white-space: pre-wrap !important;
+}
