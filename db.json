@@ -1,8 +1,10 @@
 {
-  "posts": [
+  "TODOS": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "Grocery List",
+      "description": "Stuff to buy at the mall",
+      "subtasks": []
     }
   ],
   "profile": {
