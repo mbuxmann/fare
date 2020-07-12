@@ -1,5 +1,8 @@
 # Fare Website
-Fare is todo application prototype I made using ReactJS. 
+Fare (fà·re) meaning "to do" in Italian is a todo application prototype I made using ReactJS. 
+
+At the moment you are able to add a Todo Card through using the Add Todo Card form. 
+
 
 ### Tech Stack 
 - HTML
