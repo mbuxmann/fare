@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+import OutsideClickHandler from "react-outside-click-handler";
 import Subtask from "./Subtask";
 import { Context } from "../context/SubtaskContext";
 import { Input } from "antd";
@@ -6,6 +7,10 @@ import { Input } from "antd";
 const EditableTodoList = ({ subtasks, idOfTodoCard, disabled }) => {
   const { addSubtask } = useContext(Context);
   const [title, setTitle] = useState("");
+
+  const handleOnOutsideClick = () => {
+    setTitle("");
+  };
 
   const handleOnChange = (e) => {
     setTitle(e.target.value);
@@ -24,13 +29,15 @@ const EditableTodoList = ({ subtasks, idOfTodoCard, disabled }) => {
 
   return (
     <>
-      <Input
-        placeholder="Subtask"
-        value={title}
-        disabled={disabled}
-        onChange={(e) => handleOnChange(e)}
-        onKeyPress={(e) => handleOnKeyPress(e)}
-      />
+      <OutsideClickHandler onOutsideClick={() => handleOnOutsideClick()}>
+        <Input
+          placeholder="Subtask"
+          value={title}
+          disabled={disabled}
+          onChange={(e) => handleOnChange(e)}
+          onKeyPress={(e) => handleOnKeyPress(e)}
+        />
+      </OutsideClickHandler>
       {subtasks.map((subtask) => {
         const { id, title, completed } = subtask;
         return (
