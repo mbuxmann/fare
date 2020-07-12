@@ -61,6 +61,7 @@ const TodoCard = ({
             subtasks={cardSubtasks}
             idOfTodoCard={cardId}
             disabled={cardCompleted}
+            d
           />
         </Skeleton>
       </Card>
