@@ -9,7 +9,7 @@ const renderTodoCards = (state) => {
   let TodoCards = state.map((Card) => {
     const { _id, title, description, completed, subtasks } = Card;
     return (
-      <Col key={_id} span={6}>
+      <Col key={_id} xs={24} sm={24} md={12} lg={8} xl={6}>
         <TodoCard
           cardId={_id}
           cardTitle={title}
@@ -33,8 +33,8 @@ const Board = () => {
 
   return (
     <div className={styles.board}>
-      <Row gutter={[24, 24]}>
-        <Col key="addTodoCard" span={6}>
+      <Row gutter={[{ xs: 0, sm: 0, md: 24 }, 24]} type="flex">
+        <Col key="addTodoCard" xs={24} sm={24} md={12} lg={8} xl={6}>
           <AddTodoCard />
         </Col>
         {renderTodoCards(state)}
