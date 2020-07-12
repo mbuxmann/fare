@@ -1,1 +1,8 @@
 @import "~antd/dist/antd.css";
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+}

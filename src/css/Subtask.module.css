@@ -1,0 +1,25 @@
+.subtaskContainer {
+  margin-top: 5px;
+  height: 20px;
+  width: 100%;
+}
+
+.checkbox {
+  margin-right: 5px !important;
+}
+
+.text {
+  font-weight: bold !important;
+}
+
+.subtask {
+  display: flex;
+  float: left;
+  width: 90%;
+}
+
+.deleteIcon {
+  font-size: 15px;
+  float: right;
+  width: 10%;
+}
