@@ -19,7 +19,5 @@ Fare is todo application prototype I made using ReactJS.
 <b>Source code:</b> [GitHub](https://github.com/bitVivAZ/fare)
 
 ### Screenshots
-![alt text][Welcome Page]
-
-[Welcome Page]:https://bitvivaz.com/personal/assets/webdev/severegamingza/images/home.png "Welcome Home Page"
+![](screenshots/screenOne.png)
 
