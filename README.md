@@ -24,6 +24,8 @@ You are also able to set the Todo Card to completed, making it uneditable and fa
 
 <b>Source code:</b> [GitHub](https://github.com/bitVivAZ/fare)
 
+<b>Website:</b> [Fare](https://bitvivaz.com/fare/)
+
 ### Screenshots
 ![](screenshots/screenOne.png)
 
