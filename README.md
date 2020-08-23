@@ -1,5 +1,5 @@
 # Fare Website
-Fare (fà·re) meaning “to do” in Italian is a prototype I made using React.
+Fare (fà·re) meaning “to do” in Italian, is a prototype I made using React.
 
 At the moment you are able to add a Todo Card by filling in the Add Todo Card form and clicking on the plus icon. You can then add subtasks to that card by placing the text into the subtask input and pressing enter.
 
